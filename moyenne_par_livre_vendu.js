@@ -1,5 +1,6 @@
-let TotalLivre = 600;                                           //Total des livrs avant ajout
-let LivreAjouter = 50;                                          //Livre Ajouter
-let LivreVenduParJour = (TotalLivre + LivreAjouter) /7;         //Livre vendu par jours
-const message = "Le nombre de livres vendu par jour est:  "   // Const nombre de livre vendu
-console.log(message + Math.round(LivreVenduParJour));                                 // Constater le resultat au bout de 7j
+let DepartLivresVendu = 600 ;                                                                    //Livre Vendu
+let VenteDeLaSemaine = 50;                                                                       //Vente de la semaine
+let TotalLivreVendu = (DepartLivresVendu + VenteDeLaSemaine) /7;                                  //Total
+console.log("Le nombre de livre vendu par jour est :" + Math.round(TotalLivreVendu));             // Constater le résultat
+
+
