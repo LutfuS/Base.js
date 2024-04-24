@@ -52,3 +52,12 @@ for (var i = 0; i < my_tableau.length; i++) {
 }
 
 console.log(`j'ai ${tableauAge.length} "personnes qui ont plus de 50 ans `)
+
+//Stockage d'un élément unique avec 0bj
+var obj_people = {}
+
+for (var i= 0; < my_tableau.length; i ++) {
+    obj_people[my_tableau[i].FirstName]=my_tableau
+}
+
+console.log(obj_people[`Louis55`])
