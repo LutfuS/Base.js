@@ -160,7 +160,7 @@ for (var i = 0; i < 10; i++) {
 
 const fs = require("fs");
 fs.mkdirSync("recettes");
-fs.appendFileSync("recettes/recette-24042024.txt", txt);
+fs.appendFileSync("recettes/recette-24022024.txt", txt);
 fs.appendFile("recettes.txt", txt, (err) => {
   if (err) throw err;
   console.log("manger");
